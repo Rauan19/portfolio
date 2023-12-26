@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.menu {
+    background-color: rgba(7, 2, 7, 0.956);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 15;
+    display: flex;
+    top: 0;
+    left: 0;
+    
+   }
+   .bi-x-lg{
+    position: absolute;
+    left: 140px;
+    border: 3px white;
+    top: -110px;
+   }
+   .botao-menulateral{
+    font-size: 29px;
+    margin-top: -1px;
+    margin-left: 3px;
+   }
+   
+   html{
+    scroll-behavior: smooth;
+ }
+
+   p{ 
+   margin-left: 20px;
+   position: absolute;
+   color: white;
+   
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 28px;
+   font-size: 23px;
+   }
+   ol{
+    color:rgb(249, 239, 239);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    margin-left: 10px;
+    top: 28px;
+    
+    left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   a{ 
+    color: aliceblue;
+    text-decoration: none;
+      box-shadow: 15px 6px  rgba(128, 128, 128, 0.199);
+      border-radius: 57px;
+    
+    
+   }
+   a:hover{
+    background-color: rgba(78, 124, 151, 0.219);
+    border-radius: 8px;
+    color: rgb(202, 21, 21) ;
+    padding: 8px;
+    
+   }
+   #front1 {
+    color: #421040;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+    animation: typing 2s steps(26), blinking 0.5s infinite step-end alternate;
+    background-color: black;
+    min-height: 100vh;
+    text-align: center;
+    
+   }
+   .frontgrande{
+    font-size: 80px;
+    color: #fbf7f9;
+    margin-top: 300px;
+    
+    
+   }
+   .b1{margin-left: -690px;
+    margin-top: 140px;     
+      
+   }
+    .bt1{
+        background-color: rgba(169, 169, 169, 0.045);
+        border-radius: 10px;
+        width: 48px;
+        border: 4px solid black;
+        
+    }
+    .bi-github{
+        color:aliceblue;
+        font-size: 30px;
+    }
+    .bt1:hover{
+        background-color: dimgrey;
+    }
+    .bi-linkedin{
+        font-size: 30px;
+        color: antiquewhite;
+        border-radius: 30px;
+        
+    }
+    .bt2{
+        width: 45px;
+        border: 3px solid black;
+        
+        border-radius: 10px;
+        background-color: rgba(169, 169, 169, 0.003);
+    }
+        
+    .bt2:hover{
+        
+        background-color: rgba(15, 71, 174, 0.762);
+        
+    }
+    .bi-instagram:hover{
+        
+        border-radius: 10px;
+        
+    }
+    .bt3{
+        width: 45px;
+        border: 3px solid black;
+        
+        background-color: rgba(169, 169, 169, 0.003);
+        border-radius: 10px;
+        
+    }
+    .bi-instagram{
+        font-size: 30px;
+        color: aliceblue;
+
+    }
+    .bt3:hover{background-color: dimgrey;
+
+    }
+    #tela2{
+      text-align: center;
+        min-height: 100vh;
+        background-color: rgb(16, 14, 14);
+        
+    }
+   
+    
+    #projet1{
+        position: relative;
+        
+        top: 60px;
+        align-items: center;
+        justify-content: center;
+        display: flex;}
+        .procont{
+            background-color: black;
+            width: 250px;
+            height: 300px;
+            border-radius: 18px;
+            margin-top: 170px; 
+            margin-left: -280px;
+            box-shadow: 12px 15px rgba(55, 48, 48, 0.278);
+            
+            border: 3px solid #931d06;
+         }
+          .procont2{
+            background-color:black;
+            width: 250px;
+            height: 310px;
+            border-radius: 18px;
+            margin-top: 120px;
+            margin-left: 90px;
+            
+            box-shadow: 12px 15px rgba(55, 48, 48, 0.342);
+            
+            border: 3px solid #931d06;
+          }
+          .procont3{
+            background-color: black;
+            width: 250px;
+            height: 300px;
+            border-radius: 18px;
+            margin-top: 170px;
+            margin-left: 90px;
+            box-shadow: 12px 15px rgba(55, 48, 48, 0.351);
+            border: 3px solid #931d06;
+            
+          }
+          .projetoss{
+            font-size: 65px;
+            position: relative;
+            left: 300px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-bottom: 400px;
+            color:white;
+            align-items: center;
+      
+          }
+          .projetonome{
+            color: #931d06;
+            margin-left: 110px;
+            position: relative;
+            top: -78px;
+            font-size: 90px;
+          }
+          #tela3{
+            min-height: 100vh;
+            background-color:black;
+          }
+          #tela4{
+            min-height: 100vh;
+            background-color: rgb(27, 23, 21);
+            display: flex;
+            text-align: center;
+          }
+          .habilidade1{position: absolute;
+            width: 221px;
+          
+            height: 120px;
+    
+            overflow: hidden;
+
+
+
+          }
+          .habilidade2{ width: 222px;
+            margin-left: 50px;
+            background-color: #100d10;
+            overflow: hidden;
+            border: 4px solid #453f3e;
+            position: relative;
+            width: 300px;
+            margin-top: 220px;
+            border-radius: 40px;
+            height: 330px;
+            
+            
+
+          }
+          .habilidade3{width: 322px;
+            transition: 0.8s;
+            margin-left: 45px;
+            position: relative;
+            top: 220px;
+            display: flex ;
+            border-radius: 45px;
+            height: 330px;
+            background-color: #100d10;
+            overflow: hidden;
+            border: 4px solid #453f3e;
+
+          }
+          .linha1{
+            background-color: rgba(169, 169, 169, 0.338);
+            width: 500px;
+            height: 15px;
+            position: relative;
+            border-radius: 20px;
+            box-shadow: 70px 20px rgba(67, 59, 59, 0.916);
+            top: 100px;
+            margin-left: 250px;
+          }
+          .dosobre-mim{
+            color: white ;
+            position: relative;
+          }
+          .sobremim{
+            background-color: #dd3012;
+            width: 300px;
+            border: 2px white;
+            height: 400px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            top: 180px;
+            margin-left: 100px;
+            border-radius: 15px;
+          }
+          
+            
+            
+            
+        
+
+          h5{
+            color: #ede5e45e;
+            position: relative;
+            font-size: 30px;
+            top: 160px;
+            margin-left: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+         
+          
+          img{
+            width: 100px;
+            margin-top: 8px;
+            margin-left: 10px;
+            
+            border-radius: 20px;
+          }
+          .img1{
+           opacity: 80%;
+           width: 150px;
+           height: 120px;
+           margin-left: 90px;
+           border: 5px solid rgb(220, 194, 194);
+          }
+          .img2{
+            background-color: rgb(238, 110, 18);
+          }
+           
+          
+
+          
+          
+         
+          .dehabilidade{
+            text-align: center;
+            margin-left: 40%;
+            margin-top: 27%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .todashabilidade{
+            background-color: #131013;
+            overflow: hidden;
+            border: 4px solid #453f3e;
+            width: 340px;
+            margin-left: -1000px;
+            top: 220px;
+            height: 280px;
+            position: relative;
+            border-radius: 40px;
+          }
+             
+             @keyframes float {
+              0%, 90%{
+                transform: translateY(0);
+              }
+              30%{
+                transform: translateY(50px);
+              }
+             }
+            
+          
+          .menu1{
+            color: #931d06;
+          }
+          .p1{
+            color: #931d06;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-top: 19px;
+   font-size: 33px;
+   margin-left: 300px;
+   position: absolute;
+          }
+         h4{font-size: 40px;
+          
+          top: -30px;
+          position:relative;
+          color: #931d06;
+          font-family: 'Dhurjati', sans-serif;
+          
+
+         }
+         .menu-lateral{
+          background-color:rgb(16, 18, 18) ;
+          border: 3px white;
+          width: 200px;
+          position: fixed;
+          display: none;
+          z-index: 20;
+          left: 180px;
+          margin-top: 15px;
+          color: #fbf7f9;
+          height: 295px;
+          position: fixed;
+          border-radius: 6px;
+          }
+          .link-menu-lateral{
+            
+            position: relative;
+            top: 1px;
+          }
+          .projeto-do-menult{
+            position: relative;
+            
+          }
+          .dentro-do-projeto{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .dentro-do-projeto2{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .dentro-do-projeto3{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .nome-sobremim{
+            color: #fbf7f9;
+            position: relative;
+            border-radius: 25px;
+            font-size: 58px;
+            box-shadow: 3px 10px #931d06 ;
+            top: 90px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+
+
+          li{
+            margin-top: 10px;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          strong{
+            color: #931d06;
+          }
+          .bi-list{
+            
+            font-size: 42px;
+            margin-left: 350px;
+            position: absolute;
+            top: -10px;
+            
+            
+          }
+         @media (max-width: 480px) {
+          .bi-list{
+            margin-left: 5px;
+          }
+          
+          
+          #front1{width: 390px;
+            text-align: center;
+            flex-direction: column;
+            margin-top: -180px;
+            
+          }  
+            
+            
+            
+          
+          p{
+            font-size: 15px;
+          }
+        
+          .frontgrande{
+            margin-top: 10px;
+            position: absolute;
+            top: 30px;
+            font-size: 30px;
+            margin-left: 100px;
+          }
+          h4{
+            font-size: 30px;
+            left: 50px;
+            margin-top: 10px;
+            position: relative;
+          }
+        
+          .projetoss{
+            position: relative;
+            
+            display: grid;
+          }
+
+          
+         }
+         @media (max-width: 1070px){
+          ol{
+            position:relative ;
+            font-size: 19px;
+            left: 340px;
+            
+          }
+         a{margin-left:1px;
+
+         } 
+         p{
+          font-size: 20px;
+         }
+         .p1{margin-left: 265px;
+          
+      
+          
+         }
+         .procont{
+          width: 190px;
+         }
+         .procont2{
+          width: 190px;
+         }
+         .procont3{
+          width: 190px;
+         }
+         .projetoss{
+          position: relative;
+          left: 270px;
+          top: 20px;
+         }
+
+         }
+         @media (max-width: 629px){
+          .menu-lateral{
+            position: fixed;
+            
+            z-index: 45;
+            margin-left: 150px;
+          }
+          .bi-list{
+            margin-left: -02px;
+            
+          }
+          .projetonome{
+            font-size: 65px;
+            position: relative;
+            margin-left: -10PX;
+            top: 20px;
+          }
+          .projetoss{
+            position: relative;
+            font-size: 50px;
+            margin-left: -90px;
+            top: 80px;
+          }
+          .frontgrande{
+            font-size: 80px;
+            margin-top: 180px;
+          }
+          #projeto1{
+            position: relative;
+            display: initial;
+          }
+          .procont{
+            height: 110px;
+            position: absolute;
+            top: 1520px;
+            left: 480px;
+
+          }
+          .procont2{
+            position: absolute;
+            height: 110px;
+            margin-top: -95px;
+            left: 15px;
+            
+
+          }
+          .procont3{
+            height: 110px;
+            margin-top: 50px;
+            position: absolute;
+            left: 110px;
+          }
+          .dentro-do-projeto{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .dentro-do-projeto2{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .dentro-do-projeto3{
+            font-size: 40px;
+            box-shadow: 10px 3px #453f3e;
+            
+            border-radius: 20px;
+            
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
+          .numero-do-projeto{
+            font-size: 13px;
+            margin-left: 55px;
+            margin-top: 90px;
+          }
+          .numero-do-projeto2{
+            font-size: 13px;
+            margin-left: 55px;
+            margin-top: 90px;
+          }
+          .numero-do-projeto3{
+            font-size: 13px;
+            margin-left: 55px;
+            margin-top: 90px;
+          }
+           .dosobre-mim{
+            color: white ;
+            position: relative;
+            margin-top: 55px;
+            
+          }
+          .minhafoto{
+            width: 150px;
+            animation: float 6s infinite;
+          }
+            
+          
+          .sobremim{
+            background-color: #060201;
+            width: 360px;
+            height: 400px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            top: 180px;
+            margin-left: 100px;
+            border-radius: 15px;
+          }
+       
+         
+         }
